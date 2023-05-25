@@ -1,3 +1,7 @@
 export default function Home() {
-  return <h1>Hello world</h1>
+  return (
+    <div className="h-screen bg-zinc-900 text-zinc-50 p-6">
+      <h1 className="text-4xl font-bold">sua cap</h1>
+    </div>
+  )
 }
